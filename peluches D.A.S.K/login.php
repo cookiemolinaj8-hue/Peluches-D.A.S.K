@@ -27,7 +27,7 @@ $enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
     <nav>
         <a href="index.html">Inicio</a>
         <a href="productos.html">Productos</a>
-        <a href="carrito.html">Carrito</a>
+        <a href="pedidos.php">Pedidos</a>
     </nav>
 </header>
     
