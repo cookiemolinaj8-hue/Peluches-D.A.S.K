@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="CSS/pedidos.CSS">
+<link rel="CSS/pedidos.CSS" href="CSS/pedidos.CSS"">
 
 <?php
 
