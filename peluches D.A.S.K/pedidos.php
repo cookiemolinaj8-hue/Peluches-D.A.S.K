@@ -17,7 +17,7 @@
 
     <nav>
         <a href="index.html">Inicio</a> 
-        <a href="Login.html">Login</a>
+        <a href="login.php">Login</a>
         <a href="compras.html">Facturas</a>
 
     </nav>
