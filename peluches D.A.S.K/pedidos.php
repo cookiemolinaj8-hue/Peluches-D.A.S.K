@@ -66,11 +66,6 @@ $enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
 
     <div id="lista-carrito"></div>
 
-    <h2>Total: $<span id="total">0</span></h2>
-
-    <button class="btn-finalizar" onclick="finalizarCompra()">Finalizar compra</button>
-    <button class="btn-vaciar" onclick="vaciarCarrito()">Vaciar Carrito</button>
-
 </div>
 
 <script src="JS/carrito.js"></script>
