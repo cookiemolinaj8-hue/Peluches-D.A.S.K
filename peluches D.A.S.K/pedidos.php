@@ -1,3 +1,14 @@
+<?php
+
+$servidor = "localhost";
+$usuario = "root";
+$contraseña = "";
+$base_datos = "peluches-dask";
+
+$enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +36,7 @@
 
     <form class = "pedidos" action="#" method="post">
 
-    <input type="text" name="nombre" placeholder="Nombre del producto">
+    <input type="text" name="nombre_producto" placeholder="Nombre del producto">
     <input type="text" name="cantidad" placeholder="Cantidad">
     <input type="text" name="telefono" placeholder="Teléfono">
     <input type="text" name="destinatario" placeholder="Destinatario">
@@ -34,6 +45,22 @@
     <input type="reset">
 
     </form>
+
+<?php
+
+    if (isset($_POST['registro'])){
+
+        $nombre_producto = $_POST['nombre_producto'];
+        $cantidad = $_POST['cantidad'];
+        $telefono = $_POST['telefono'];
+        $destinatario = $_POST['destinatario'];
+
+        $insertarDatos = "INSERT INTO pedidos VALUES('$nombre_producto','$cantidad','$telefono','$destinatario','')";
+
+        $ejecutarInsertar = mysqli_query ($enlace, $insertarDatos);
+
+    }    
+?>
 
 <div class="carrito-container">
 
