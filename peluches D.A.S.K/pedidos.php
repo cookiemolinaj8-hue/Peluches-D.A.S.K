@@ -1,4 +1,4 @@
-<link rel="CSS/pedidos.CSS" href="CSS/pedidos.CSS"">
+<link rel="CSS/pedidos.CSS" href="CSS/pedidos.CSS">
 
 <?php
 
@@ -16,7 +16,7 @@ $enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
 <head>
     <meta charset="UTF-8">
     <title>Pedidos - D.A.S.K</title>
-    <link rel="stylesheet" href="/peluches/Peluches-D.A.S.K/peluches%20D.A.S.K/CSS/pedidos.CSS">
+    <link rel="stylesheet" href="CSS/pedidos.CSS">
      
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
