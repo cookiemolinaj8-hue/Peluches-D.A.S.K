@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carrito - D.A.S.K</title>
+    <title>Pedidos - D.A.S.K</title>
     <link rel="stylesheet" href="CSS/carrito.CSS">
      
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -22,6 +22,18 @@
 
     </nav>
 </header>
+
+    <form class = "pedidos" action="#" method="post">
+
+    <input type="text" name="nombre" placeholder="Nombre del producto">
+    <input type="text" name="cantidad" placeholder="Cantidad">
+    <input type="text" name="telefono" placeholder="Teléfono">
+    <input type="text" name="destinatario" placeholder="Destinatario">
+
+    <input type="submit" name="registro">
+    <input type="reset">
+
+    </form>
 
 <div class="carrito-container">
 
