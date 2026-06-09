@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="CSS/login.css">
 
 <?php
 
@@ -17,6 +17,7 @@ $enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
 

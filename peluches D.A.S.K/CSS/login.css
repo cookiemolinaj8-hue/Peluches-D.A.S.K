@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-/* HEADER */
 header {
     background: linear-gradient(90deg, #000000, #0a0a12);
     text-align: center;
@@ -14,63 +13,18 @@ header {
     border-bottom: 1px solid rgba(0,255,255,0.2);
 }
 
+header img {
+    border-radius: 50%;
+    border: 2px solid rgba(0,255,255,0.3);
+    box-shadow: 0 0 15px rgba(0,255,255,0.2);
+}
+
 header h1 {
     color: #ffffff;
     letter-spacing: 3px;
     text-shadow: 0 0 10px #00ffff;
 }
-button {
-    background: linear-gradient(45deg, #00ffff, #ff00ff);
-    color: #000;
-    border: none;
-    padding: 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s;
-}
 
-button:hover {
-    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
-}
-
-/* REDES */
-.redes {
-    margin-top: 20px;
-}
-
-.btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    margin: 8px;
-    border-radius: 50%;
-    font-size: 24px;
-    color: white;
-    background: #111;
-    border: 1px solid rgba(255,255,255,0.1);
-    transition: 0.3s;
-}
-
-.btn:hover {
-    transform: scale(1.2);
-    box-shadow: 
-        0 0 10px #00ffff,
-        0 0 20px #ff00ff;
-}
-.bienvenida,
-.contacto{
-    width: 90%;
-    max-width: 900px;
-    margin: 60px auto;
-    padding: 35px;
-    background: #0d0d14;
-    border-radius: 15px;
-    border: 1px solid rgba(255,255,255,0.05);
-    box-shadow: 0 0 15px rgba(0,255,255,0.1);
-}
 nav a {
     color: #b3b3b3;
     text-decoration: none;
@@ -97,11 +51,118 @@ nav a:hover {
 nav a:hover::after {
     width: 100%;
 }
-.carrito-container{
-    margin: auto;
-    font-display: block;
-    padding-left: 15%;
-    padding-bottom: 10%;
-    padding-top: 5%;
-    
+
+form.login {
+    width: 90%;
+    max-width: 500px;
+    margin: 80px auto;
+    padding: 40px;
+    background: #0d0d14;
+    border-radius: 15px;
+    border: 1px solid rgba(0,255,255,0.15);
+    box-shadow: 0 0 30px rgba(0,255,255,0.1), 0 0 60px rgba(255,0,255,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form.login::before {
+    content: "Registro";
+    color: #00ffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #00ffff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form.login input[type="text"],
+form.login input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    background: #111122;
+    border: 1px solid rgba(0,255,255,0.2);
+    border-radius: 8px;
+    color: #eaeaea;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: 0.3s;
+    outline: none;
+}
+
+form.login input[type="text"]:focus,
+form.login input[type="email"]:focus {
+    border-color: #00ffff;
+    box-shadow: 0 0 8px rgba(0,255,255,0.3);
+}
+
+form.login input[type="submit"] {
+    padding: 12px;
+    background: linear-gradient(45deg, #00ffff, #ff00ff);
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+
+form.login input[type="submit"]:hover {
+    box-shadow: 0 0 15px #00ffff, 0 0 30px #ff00ff;
+    transform: scale(1.02);
+}
+
+form.login input[type="reset"] {
+    padding: 10px;
+    background: transparent;
+    color: #b3b3b3;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form.login input[type="reset"]:hover {
+    border-color: #ff00ff;
+    color: #ffffff;
+}
+
+.contacto {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 35px;
+    background: #0d0d14;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.05);
+    box-shadow: 0 0 15px rgba(0,255,255,0.1);
+}
+
+.redes {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: white;
+    background: #111;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
 }
