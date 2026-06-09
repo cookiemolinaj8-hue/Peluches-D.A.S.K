@@ -25,7 +25,7 @@ $enlace = mysqli_connect ($servidor, $usuario, $contraseña, $base_datos);
     <h1>Peluches D.A.S.K</h1>
 
     <nav>
-        <a href="index.html">Inicio</a>
+        <a href="index.php">Inicio</a>
         <a href="productos.html">Productos</a>
         <a href="pedidos.php">Pedidos</a>
     </nav>

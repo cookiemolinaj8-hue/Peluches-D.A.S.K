@@ -16,8 +16,9 @@
     <h1>Pedidos</h1>
 
     <nav>
-        <a href="index.html">Inicio</a> 
+        <a href="index.php">Inicio</a> 
         <a href="login.php">Login</a>
+        <a href="productos.html">Productos</a>
 
     </nav>
 </header>
