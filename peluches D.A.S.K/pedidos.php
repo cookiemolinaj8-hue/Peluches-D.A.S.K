@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Pedidos - D.A.S.K</title>
-    <link rel="stylesheet" href="CSS/carrito.CSS">
+    <link rel="stylesheet" href="CSS/pedidos.CSS">
      
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     
@@ -13,12 +13,11 @@
 
 <header>
     <img src="img/logo.png" alt="logo" width="250">
-    <h1>Carrito</h1>
+    <h1>Pedidos</h1>
 
     <nav>
         <a href="index.html">Inicio</a> 
         <a href="login.php">Login</a>
-        <a href="compras.html">Facturas</a>
 
     </nav>
 </header>
