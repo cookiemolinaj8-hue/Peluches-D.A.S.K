@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="CSS/pedidos.CSS">
+
 <?php
 
 $servidor = "localhost";
